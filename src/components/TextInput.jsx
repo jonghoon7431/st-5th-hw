@@ -17,12 +17,7 @@ function TextInput({ onAddText }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        value={inputValue}
-        onChange={handleChange}
-        placeholder="Enter text"
-      />
+      <input type="text" value={inputValue} onChange={handleChange} placeholder="Enter text" />
       <button type="submit">Add</button>
     </form>
   );
